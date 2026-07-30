@@ -1,12 +1,12 @@
 {
-  "name": "SukhrajTheBot",
+  "name": "Bot",
   "bot-account": {
-    "username": "SukhrajTheBot",
+    "username": "Bot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "sharrypvp.aternos.me",
+    "ip": "sharrymahal.aternos.me",
     "port": 50858,
     "version": "",
     "try-creative": false
@@ -31,15 +31,15 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "sharry is the goat",
-        "we pvp here",
-        "this is sharry's PvP server"
+        "",
+        "",
+        ""
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 1,
+    "max-reconnect-delay": 1
   },
   "movement": {
     "enabled": true,
@@ -59,14 +59,14 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -77,7 +77,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
